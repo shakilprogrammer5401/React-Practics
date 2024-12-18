@@ -3,6 +3,7 @@ import ClassComponent from './Components/ClassComponent'
 import IconReact from './Components/IconReact'
 import ClassState from './Components/State/ClassState'
 import HabluSate from './Components/State/HabluState'
+import IncDecState from './Components/State/functionalState/IncDec'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <IconReact />
         <ClassState />
         <HabluSate />
+        <IncDecState />
     </>
   )
 }
